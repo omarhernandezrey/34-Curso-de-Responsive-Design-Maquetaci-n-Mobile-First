@@ -422,7 +422,6 @@
   animation: pulse 1s infinite;
 }
 
-
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -434,6 +433,51 @@
     transform: scale(1);
   }
 }
+
+
+.recomended-Basico {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  padding: 6px;
+  top: -15px;
+  left: calc(50% - 60px);
+  font-size: 1.2rem;
+  background-color: var(--secondary-blue);
+  border-radius:8px;
+  color: var(--just-white);
+}
+
+.recomended-limitado {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  padding: 6px;
+  top: -15px;
+  left: calc(50% - 60px);
+  font-size: 1.2rem;
+  background-color: var(--warm-black);
+  border-radius:8px;
+  color: var(--just-white);
+
+}
+
+.plans-container--card-limitado {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: var(--bitcoin-orange);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
+}
+
+
+
 
 .plan-card--title {
   padding-top: 30px;
@@ -490,3 +534,4 @@
   background-image: url("./assets/icons/orange-right-arrow.svg");
   vertical-align: text-bottom;
 }
+
