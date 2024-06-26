@@ -139,7 +139,7 @@
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: 370px;
     margin: 0 auto;
   
     font-family: "Inter", sans-serif;
@@ -158,6 +158,18 @@
     line-height: 2.3rem;
     color: var(--secondary-blue);
   }
+
+  .main-tables-container {
+    position: relative;
+    scroll-snap-align: center;
+    display: flex;
+    height: 340px;        /* Aumenta la altura del contenedor */
+    overflow-x: auto;     /* Mantiene el scroll horizontal */
+    overflow-y: hidden;   /* Elimina el scroll vertical */
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+  }
+  
   .currency-table--container,
   .commissions-table--container {
     width: 90%;
